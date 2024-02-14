@@ -1,0 +1,5 @@
+1.Open the Chrome Browser
+2.Launch the url
+3.Enter the valid user name
+4.Enter the valid password
+5.Click the Login button
