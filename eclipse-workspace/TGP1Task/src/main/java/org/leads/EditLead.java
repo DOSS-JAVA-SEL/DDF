@@ -16,18 +16,7 @@ public class EditLead extends BaseClass{
 
 	@Test(dataProvider = "informations")
 	public void editLead(String phone,String comp) throws InterruptedException {
-		/*		WebDriver driver = new ChromeDriver();
-		driver.get("http://leaftaps.com/opentaps/control/main");
-		driver.manage().deleteAllCookies();
-
-		//Page1:Leaftapslogin
-		//username
-		driver.findElement(By.id("username")).sendKeys("DemoSalesManager");
-		//password
-		driver.findElement(By.id("password")).sendKeys("crmsfa");
-		//login button
-		driver.findElement(By.className("decorativeSubmit")).click();
-		 */
+	
 		//Page2:welcomepage
 		driver.findElement(By.linkText("CRM/SFA")).click();
 
